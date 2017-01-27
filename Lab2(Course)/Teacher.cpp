@@ -14,20 +14,20 @@ void Teacher::SitInClass()
 }
 
 string Teacher::getFirstname() {
-	cout << this->firstname;
+	return this->firstname;
 };
 string Teacher::getLastname() {
-	cout << this->lastname;
+	return this->lastname;
 };
 int Teacher::getAge() {
-	cout << this->age;
+	return this->age;
 };
 string Teacher::getAddress() {
-	cout << this->address;
+	return this->address;
 };
 string Teacher::getCity() {
-	cout << this->city;
+	return this->city;
 };
 string Teacher::getPhone() {
-	cout << this->phone;
+	return this->phone;
 };

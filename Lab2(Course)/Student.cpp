@@ -5,23 +5,23 @@ using namespace std;
 
 void Student::SitInClass()
 {
-	std:cout << "Sitting in main theater" << endl;
+	cout << "Sitting in main theater" << endl;
 }
 string Student::getFirstname() {
-	cout << this->firstname;
+	return this->firstname;
 };
 string Student::getLastname() {
-	cout << this->lastname;
+	return this->lastname;
 };
 int Student::getAge() {
-	cout << this->age;
+	return this->age;
 };
 string Student::getAddress() {
-	cout << this->address;
+	return this->address;
 };
 string Student::getCity() {
-	cout << this->city;
+	return this->city;
 };
 string Student::getPhone() {
-	cout << this->phone;
+	return this->phone;
 };

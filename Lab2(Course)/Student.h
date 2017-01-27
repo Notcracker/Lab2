@@ -28,9 +28,13 @@ private:
 	string phone;
 };
 
+Student::Student(string firstname, string lastname, int age, string address, string city, string phone) : 
+{
+}
 Student::Student()
 {
 }
+
 
 Student::~Student()
 {
